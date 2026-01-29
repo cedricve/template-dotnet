@@ -19,6 +19,6 @@
         }
     },
     "forwardPorts": [5000, 5001],
-    "postCreateCommand": "dotnet restore && dotnet build",
+    "postCreateCommand": "dotnet restore && dotnet build && dotnet dev-certs https",
     "remoteUser": "vscode"
 }
